@@ -1,0 +1,10 @@
+<router-outlet></router-outlet>
+<p>createfp works!</p>
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="map" style="width: 100%; height: 100vh;"></div>
+<div style="position: absolute; top: 0; right: 0;  z-index:9999">
+  <input [(ngModel)]='val'>
+  <button (click)="setScaleOfMap()">Set Scale</button>
+  <button (click)="saveScaleOfMap()">Save Scale</button>
+</div>
+<router-outlet></router-outlet>

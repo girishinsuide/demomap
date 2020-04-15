@@ -3,6 +3,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import { DistortableImageOverlay} from 'leaflet-distortableimage/dist/leaflet.distortableimage';
 
 if (environment.production) {
   enableProdMode();

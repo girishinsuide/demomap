@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.marker-pin {
+  width: 30px;
+  height: 30px; border-radius:50%;
+   background: url(/assets/facilitis-white.svg) center center no-repeat #828282;
+    border: 1px solid #828282; transition: all .2s ease-in-out;
+}
+
+
+.marker-pin:hover{transform: scale(1.5); transition: all .2s ease-in-out;}
+
+#button-submit{border: none; background: #2f80ed;}
+
+
